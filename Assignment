@@ -1,45 +1,63 @@
 <!DOCTYPE html>
-<html>
-    <head>
-         <title>Amore Gift Shop</title>
-        
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Amore Gift Shop offers personalized gifts, gift baskets, and seasonal surprises for friends and loved ones." />
+    <title>Amore Gift Shop | Personalized Gifts & Seasonal Surprises</title>
+</head>
+<body>
+    <header>
+        <img src="AMORE.png" alt="Amore Gift Shop Logo" width="300" />
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#collections">Collections</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <header>
-            <img src="AMORE.jpg" alt="Amore Gift Shop logo" width="800" />
-            <h1>Amore Gift Shop</h1>
-             <nav>
-         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#collections">Collections</a></li>
-            <li><a href="#contact">Contact</a></li>
-         </ul>
-         </nav>
-        </header>
+    <main>
+        <section id="about">
+            <h1>About Amore</h1>
+            <p>
+                At Amore Gift Shop, we believe the bond between best friends deserves to be celebrated in the most heartfelt way. Whether it's their birthday, your friendiversary, or just a random "I appreciate you" moment, we have the perfect gift to show how much they mean to you.
+            </p>
+        </section>
 
-        <main>
-            <section id="About">
-                <h2>About Amore</h2>
-        <p>At Amore Gift Shop, we believe the bond between best friends deserves to be celebrated in the most heartfelt way. <br> It's their birthday, your friendiversary, or just random "I appreciate you" moment, <br> we have the perfect gift to show how much they mean to you.</p>
-        <h2>Our Collection</h2>
-        <img src="Libretas 🩷.jpg" alt="Libretas Shop" width=800 />
-        <h3>Personalized Keepsakes</h3>
-        <p>From engraved jewelry to custom name frames, our keepsakes capture memories that last a lifetime.</p>
-        <h3>Gift Baskets</h3>
-        <p>Choose from themed baskets for birthdays, baby showers, or corporate gifting—beautifully arranged and wrapped.</p>
-        <h3>Seasonal Surprises</h3>
-        <p>Limited-edition gifts for holidays like Christmas, Valentine's, and Mother's Day. Celebrate the seasons with Amore.</p>
-            </section>
-            <section id="Contact">
-                <h2>Contact Us</h2>
-        <p><strong>Phone:</strong> +245742022838</p>
-        <p><strong>Email:</strong>amoregiftshop@gmail.com</p>
-        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/craftedforamore" target="_blank">craftedforamore</a></p>
-        <p><strong>Location:</strong>Mombasa,Kenya</p>
+        <section id="collections">
+            <h2>Our Collections</h2>
+            <article>
+                <img src="Mueble para libretas.jpg" alt="Overview of the Shop" width="600" />
+                <h3>Personalized Keepsakes</h3>
+                <p>From engraved jewelry to custom name frames, our keepsakes capture memories that last a lifetime.</p>
+            </article>
 
-        <p>We'd love to hear from you! <br> Feel free to reach out anytime!</p>
-            </section>
-        </main>
-    </body>
+            <article>
+                <h3>Gift Baskets</h3>
+                <p>Choose from themed baskets for birthdays, baby showers, or corporate gifting—beautifully arranged and wrapped.</p>
+            </article>
+
+            <article>
+                <h3>Seasonal Surprises</h3>
+                <p>Limited-edition gifts for holidays like Christmas, Valentine's, and Mother's Day. Celebrate the seasons with Amore.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p><strong>Phone:</strong> +254 742 022838</p>
+            <p><strong>Email:</strong> <a href="mailto:amoregiftshop@gmail.com">amoregiftshop@gmail.com</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/craftedforamore" target="_blank" rel="noopener">craftedforamore</a></p>
+            <p><strong>Location:</strong> Mombasa, Kenya</p>
+            <p>We'd love to hear from you! Feel free to reach out anytime!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Amore Gift Shop. All rights reserved.</p>
+    </footer>
+</body>
 </html>
+
